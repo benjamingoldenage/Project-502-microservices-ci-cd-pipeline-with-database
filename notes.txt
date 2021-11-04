@@ -1,0 +1,42 @@
+1.  work flow logic:
+    
+    https://www.youtube.com/watch?v=1SXpE08hvGs&ab_channel=Devchild
+
+    https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+
+
+    https://nvie.com/posts/a-successful-git-branching-model/
+
+
+2. Quality Assurance-Quality Control-Testing
+
+Kalite Güvencesi (Quality Assurence), hata veya kusurun önlenmesini hedefler. 
+Kalite kontrol (Quality Control) ise hata veya kusurun tespit edilmesini ve iyileştirilmesini hedefler.  
+QA, kaliteyi yönetme tekniğidir. QC, kaliteyi doğrulama tekniğidir.
+
+QA, Yazılım Geliştirme Yaşam Döngüsünden (SDLC) sorumluyken 
+QC, Yazılım Test Yaşam Döngüsünden (STLC) sorumludur
+
+
+3. export PS1="\[\e[31m\]\u\[\e[32m\]@\h-\w:\[\e[36m\]\\$\[\e[m\] "
+
+bashrc yapıstır.
+
+4. git remote set-url origin https://token@url
+
+git branch -M main
+
+5. Password for 'https://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@github.com':
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/altunozserkan/petclinic-microservices.git/'
+The GitHub BlogThe GitHub Blog
+Token authentication requirements for Git operations | The GitHub Blog
+Beginning August 13th, 2021, we will no longer accept account passwords when authenticating Git operations on GitHub.com.
+Written by
+Matthew Langlois
+Est. reading time
+3 minutes
+
+
+6. 
