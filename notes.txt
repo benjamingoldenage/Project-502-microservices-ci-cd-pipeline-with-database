@@ -39,4 +39,8 @@ Est. reading time
 3 minutes
 
 
-6. 
+6. Dockerfile da komutlar:
+-x --extract = extract files from an archive
+-v, --verbose = verbosely list files processed
+-z, --gzip = gzipped files eg. for tar.gz packages
+-f, --file ARCHIVE = use archive file or device ARCHIVE
