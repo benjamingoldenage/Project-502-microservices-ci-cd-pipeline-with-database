@@ -44,3 +44,33 @@ Est. reading time
 -v, --verbose = verbosely list files processed
 -z, --gzip = gzipped files eg. for tar.gz packages
 -f, --file ARCHIVE = use archive file or device ARCHIVE
+
+msp-9
+7. 
+vi ~/.bashrc
+alias graph='git log --all --decorate --oneline --graph'
+source ~/.bashrc
+
+8. JAcoco kullanımı için:
+
+https://www.eclemma.org/jacoco/trunk/doc/maven.html
+
+9. bashrc
+
+ parse_git_branch() {
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+export PS1="\[\e[36m\]\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
+
+10. hiç push edilmedi ise github.a tanıtmanız lazım:
+
+git config --global user.email “you@example.com”
+  git config --global user.name “Your Name”
+
+
+11. jenkins aynı anda build yapabilir mi? executor?
+
+https://support.cloudbees.com/hc/en-us/articles/216456477-What-is-a-Jenkins-Executor-and-how-can-I-best-utilize-my-executors
+CloudBees SupportCloudBees Support
+What is a Jenkins Executor and how can I best utilize my executors
+Issue I’d like to understand what is a Jenkins executor, and how to best manage executors? How many executors should I allocate to a build agent? How many executors should I allocate to the Contro.
