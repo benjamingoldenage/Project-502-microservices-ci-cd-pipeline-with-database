@@ -73,4 +73,10 @@ git config --global user.email “you@example.com”
 https://support.cloudbees.com/hc/en-us/articles/216456477-What-is-a-Jenkins-Executor-and-how-can-I-best-utilize-my-executors
 CloudBees SupportCloudBees Support
 What is a Jenkins Executor and how can I best utilize my executors
-Issue I’d like to understand what is a Jenkins executor, and how to best manage executors? How many executors should I allocate to a build agent? How many executors should I allocate to the Contro.
+Issue I’d like to understand what is a Jenkins executor, 
+and how to best manage executors? How many executors should I allocate to a build agent? 
+How many executors should I allocate to the Contro.
+
+12. bkz FILEZILLA
+
+13. 
