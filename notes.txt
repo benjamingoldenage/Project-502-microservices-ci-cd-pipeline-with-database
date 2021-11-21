@@ -88,3 +88,17 @@ klasör yapısı sağlar ve bu kaynakların depolanabilmesi ve paylaşılabilmes
 
 15. Rancher ise, Kubernetes kullanımı son kullanıcı seviyesine getiren container 
 yönetimi işlerimizi kolaylaştıran modern bir sanallaştırma yönetim aracıdır.
+
+
+16. https://rancher.com/docs/rke/latest/en/config-options/cloud-providers/aws/
+
+17. https://helm.sh/
+
+18. artifacthub.io
+
+19. 
+helm install rancher rancher-latest/rancher \
+  --namespace cattle-system \
+  --set hostname=rancher.discoverdevops.com \
+  --set tls=external \
+  --set replicas=1
