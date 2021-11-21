@@ -79,4 +79,12 @@ How many executors should I allocate to the Contro.
 
 12. bkz FILEZILLA
 
-13. 
+13. https://kompose.io/user-guide/
+
+14. Helm Chart bir Kubernetes uygulaması için gerekli olan bilgiler topluluğunu barındıran dosyadır. Örnek vermek gerekirse Kubernetes deploymentlarında bulunan, service bilgisi, repository bilgisi, ingress bilgisi, 
+load balancer bilgisi gibi bir çok bilgiyi yaml formatında barındırır ve versiyonlar.
+Helm ayrıca , Kubernetes için bir paket yöneticisidir. Yani , Kubernetes üzerine uygulamaların kurulmasını, yönetilmesini ve konfigürasyonlarının yapılmasına yardımcı olur . Helm “Chart” adı verilen Kubernetes kaynakları için genel bir format ve
+klasör yapısı sağlar ve bu kaynakların depolanabilmesi ve paylaşılabilmesi için bir public bir repository  sağlar.
+
+15. Rancher ise, Kubernetes kullanımı son kullanıcı seviyesine getiren container 
+yönetimi işlerimizi kolaylaştıran modern bir sanallaştırma yönetim aracıdır.
