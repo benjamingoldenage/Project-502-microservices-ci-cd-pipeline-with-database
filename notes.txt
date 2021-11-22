@@ -102,3 +102,7 @@ helm install rancher rancher-latest/rancher \
   --set hostname=rancher.discoverdevops.com \
   --set tls=external \
   --set replicas=1
+
+
+20. Uninstall için;
+helm uninstall rancher -n cattle-system
