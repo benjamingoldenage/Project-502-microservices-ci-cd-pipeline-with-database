@@ -106,3 +106,30 @@ helm install rancher rancher-latest/rancher \
 
 20. Uninstall için;
 helm uninstall rancher -n cattle-system
+
+21. https://www.youtube.com/c/PracticalNetworking/videos
+
+
+
+21. MSP-29
+
+I want to mention the  steps in the nightly build of the project one by one,
+First of all, we have created AWS ECR Repo to store images using AWS CLI
+Secondly, we packaged the app into jars with maven
+Then We prepared Tags for Docker Images
+Next, we built App Docker Images
+After that, we pushed the images to the ECR Repo (firstly login ECR and push created images.) 
+And then we created Key Pair for Ansible and prepared ansible.config and inventory files.
+Following this, we created QA Automation Infrastructure by using Cloudformation.
+Then, we created a Docker Swarm cluster for QA Automation Build using Ansible.
+Next, we deployed the App on Docker Swarm using the docker-compose file.
+After that, we run the tests 
+we run the Selenium Functional Test on QA Environment using the Ansible playbook file
+Finally, we set the pipeline to delete all local images, repository, and cloudformation stack automatically.
+The next day morning, we check the Jenkins logs to see if there is any error or
+failed job and then check the Grafana dashboards to see the performance or any
+metric fails.
+ 
+I want to talk about the Kubernetes tool Rancher used in our project:
+I used Rancher to manage our Kubernetes cluster. For creating Rancher, I used Helm's existing repo for Rancher. With Rancher, we easily made changes in the cluster via its dashboard, add nodes, delete nodes, edit configuration files, and used kubectl in its terminal. 
+As monitoring tools: we monitored the applications in the cluster with Prometheus and Grafana
